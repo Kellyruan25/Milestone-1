@@ -15,14 +15,16 @@ page that contains all the code you need for a new page.-->
   <!--Navbar-->
   <div data-include="nav"></div>
   <!--Whole page container div-->
-  <div class="input-group mb-3">
-    <div class="input-group-prepend">
-      <span class="input-group-text" id="basic-addon1">Name</span>
-      
-    </div>
-    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+
+  <form action="resultspage.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
     <input type="submit" value="Submit">
-  </div>
+  </form> 
+
+  <form action="resultspage.html"></form>
   <div class="input-group mb-3">
     <div class="input-group-prepend">
       <span class="input-group-text" id="basic-addon1">Email</span>
@@ -32,7 +34,7 @@ page that contains all the code you need for a new page.-->
   </div>
 
   
-  
+  <form action="resultspage.html">
   <H4>Would you like us to send you emails?</H4>
   <div class="input-group mb-3">
     <select class="custom-select" id="inputGroupSelect02">
@@ -51,7 +53,7 @@ page that contains all the code you need for a new page.-->
       <p>What is an effect of the lack of women in the STEM field?</p>
 
       <form>
-        <form action="/resultspage.html" target="_blank"></form>
+        <form action="resultspage.html">
         <input type="radio" id="Less women in STEM field." name="effect" value="Less women in STEM field.">
         <label for="html">Less women in STEM field.</label><br>
         <input type="radio" id="More women in STEM field." name="effect" value="More women in STEM field.">
@@ -62,7 +64,7 @@ page that contains all the code you need for a new page.-->
       </form>
 
     <H5>Question #2</H5>
-
+    <form action="resultspage.html">
   <label for="cars">What percent of the STEM field do women make up?</label>
   <select id="percent" name="percent">
     <option value="52%">52%</option>
@@ -75,6 +77,7 @@ page that contains all the code you need for a new page.-->
       
     <H5>Question #3</H5>
  <p>What are some reasons for the lack of women in the STEM field?</p>
+ <form action="resultspage.html">
     <div class="input-group mb-3">
       <input type="text" class="form-control" placeholder="Type answer here" aria-label="Recipient's username" aria-describedby="basic-addon2">
       <div class="input-group-append">
